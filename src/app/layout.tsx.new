@@ -4,13 +4,19 @@ import "./globals.css";
 import { AuthProvider } from "@/context/AuthContext";
 import { CartProvider } from "@/context/CartContext";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "GiftLabs - Premium Gift Solutions",
   description: "Find the perfect gift for any occasion",
+};
+
+// Create a client component for the copyright year to avoid hydration errors
+const CopyrightYear = () => {
+  'use client';
+  
+  return <span>{new Date().getFullYear()}</span>;
 };
 
 export default function RootLayout({
@@ -28,7 +34,12 @@ export default function RootLayout({
               <main className="flex-grow">
                 {children}
               </main>
-              <Footer />
+              <footer className="bg-gray-100 py-6">
+                <div className="container mx-auto px-4 text-center text-gray-600">
+                  <p>© <CopyrightYear /> GiftLabs. All rights reserved.</p>
+                  <p className="text-sm mt-2">Prototype for demonstration purposes only.</p>
+                </div>
+              </footer>
             </div>
           </CartProvider>
         </AuthProvider>

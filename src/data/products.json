@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Luxury Gift Box",
+    "description": "A premium gift box containing assorted chocolates, scented candles, and a personalized note card.",
+    "price": 49.99,
+    "image": "/images/gift-box-1.svg",
+    "category": "Gift Sets",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Anniversary Gift Set",
+    "description": "Perfect for celebrating special moments together. Includes a photo frame and luxury chocolates.",
+    "price": 59.99,
+    "image": "/images/anniversary-1.svg",
+    "category": "Occasions",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Handcrafted Photo Frame",
+    "description": "Beautifully handcrafted wooden photo frame with elegant finish. Available in multiple sizes.",
+    "price": 29.99,
+    "image": "/images/frame-1.svg",
+    "category": "Home Decor",
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Premium Chocolate Box",
+    "description": "Assortment of 24 handmade Belgian chocolates in an elegant gift box.",
+    "price": 34.99,
+    "image": "/images/chocolate-1.svg",
+    "category": "Food",
+    "inStock": false
+  },
+  {
+    "id": 5,
+    "name": "Custom Message Card",
+    "description": "Personalized card with your custom message, printed on premium quality paper.",
+    "price": 12.99,
+    "image": "/images/card-1.svg",
+    "category": "Stationery",
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Deluxe Gift Hamper",
+    "description": "Luxury hamper containing wine, artisan cheese, crackers, and gourmet chocolates.",
+    "price": 89.99,
+    "image": "/images/gift-set-1.svg",
+    "category": "Gift Sets",
+    "inStock": true
+  }
+]
